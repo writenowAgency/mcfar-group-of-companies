@@ -32,10 +32,6 @@ const About: React.FC = () => {
         <div className="about-content">
           <h2 className="section-title" style={{textAlign: 'left', marginLeft: 0}}>About Mcfar Group</h2>
           
-          <div className="mobile-only mobile-about-logo">
-             <img src={logo} alt="Mcfar Group Logo" className="about-main-img" style={{ padding: '0.5rem', backgroundColor: '#ffffff' }} />
-          </div>
-
           <p className="about-text">
             Mcfar Group of Companies and Projects PTY (LTD) is a leading construction and project management firm dedicated to transforming visions into reality. With years of experience in the industry, we have built a reputation for excellence, reliability, and unparalleled craftsmanship.
           </p>

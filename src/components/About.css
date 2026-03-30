@@ -80,29 +80,14 @@
 
   .about-content {
     display: block;
-  }
-
-  .mobile-about-logo {
-    float: left;
-    margin-right: 1.2rem;
-    margin-bottom: 0.5rem;
-    width: 110px;
-  }
-
-  .mobile-about-logo .about-main-img {
     width: 100%;
-    height: auto;
-    float: none; /* Already floating container */
-    margin: 0;
-    box-shadow: var(--shadow);
-    border-radius: var(--border-radius);
   }
 
   .about .section-title {
     margin-top: 0;
     font-size: 1.8rem;
     margin-bottom: 1.5rem;
-    text-align: left !important;
+    text-align: center !important;
   }
   
   .about-text {
@@ -110,19 +95,28 @@
     line-height: 1.6;
     margin-bottom: 1rem;
     color: var(--text-dark);
+    text-align: center;
   }
   
   .about-stats {
     clear: both;
     margin-top: 2rem;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    gap: 2rem;
+  }
+
+  .stat-number {
+    font-size: 1.5rem; /* Reduced from 2rem */
+  }
+
+  .stat-label {
+    font-size: 0.75rem; /* Reduced from 0.9rem */
   }
 }
 
 @media (max-width: 576px) {
-  .about-main-img {
-    max-width: 100px;
-    margin-right: 1rem;
+  .about-stats {
+    gap: 1.5rem;
   }
 }
