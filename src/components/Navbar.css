@@ -103,6 +103,23 @@
 }
 
 @media (max-width: 768px) {
+  .navbar {
+    height: 80px !important;
+    background-color: var(--white);
+  }
+
+  .navbar.scrolled {
+    height: 70px !important;
+  }
+
+  .logo-img {
+    height: 60px !important;
+  }
+
+  .navbar.scrolled .logo-img {
+    height: 50px !important;
+  }
+
   .hamburger {
     display: block;
   }
@@ -122,11 +139,11 @@
   .nav-links {
     position: fixed;
     left: -100%;
-    top: 70px;
+    top: 80px;
     flex-direction: column;
     background-color: var(--white);
     width: 100%;
-    height: calc(100vh - 70px);
+    height: calc(100vh - 80px);
     justify-content: flex-start;
     padding: 3rem 0;
     transition: 0.3s ease-in-out;
