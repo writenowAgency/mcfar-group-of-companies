@@ -95,4 +95,8 @@
   .blog-grid {
     grid-template-columns: 1fr;
   }
+  
+  .blog-img-wrapper {
+    height: 200px;
+  }
 }

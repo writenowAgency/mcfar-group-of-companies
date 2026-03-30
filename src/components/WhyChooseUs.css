@@ -84,9 +84,39 @@
 @media (max-width: 992px) {
   .why-us-container {
     grid-template-columns: 1fr;
+    gap: 3rem;
   }
-  
+
+  .why-us-content {
+    order: 1;
+    text-align: center;
+  }
+
+  .why-us-content .section-title {
+    text-align: center !important;
+  }
+
   .reasons-grid {
     grid-template-columns: 1fr;
+  }
+
+  .reason-item {
+    text-align: left;
+  }
+
+  .why-us-visual {
+    order: 2;
+    height: 350px;
+  }
+}
+
+@media (max-width: 576px) {
+  .why-us-visual {
+    height: 250px;
+  }
+
+  .slogan-badge-overlay h3 {
+    font-size: 1.5rem;
+    padding: 1rem;
   }
 }

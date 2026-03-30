@@ -88,5 +88,29 @@
   .contact-grid {
     grid-template-columns: 1fr;
     padding: 2rem;
+    gap: 3rem;
+  }
+  
+  .contact-info {
+    text-align: center;
+  }
+  
+  .info-items {
+    align-items: center;
+  }
+  
+  .info-item {
+    flex-direction: column;
+    text-align: center;
+  }
+}
+
+@media (max-width: 576px) {
+  .contact-grid {
+    padding: 1.5rem;
+  }
+  
+  .contact-info h3 {
+    font-size: 1.5rem;
   }
 }

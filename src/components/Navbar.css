@@ -126,11 +126,13 @@
     flex-direction: column;
     background-color: var(--white);
     width: 100%;
-    text-align: center;
-    transition: 0.3s;
+    height: calc(100vh - 70px);
+    justify-content: flex-start;
+    padding: 3rem 0;
+    transition: 0.3s ease-in-out;
     box-shadow: var(--shadow);
-    padding: 2rem 0;
-    gap: 1.5rem;
+    gap: 2rem;
+    overflow-y: auto;
   }
 
   .nav-links.active {

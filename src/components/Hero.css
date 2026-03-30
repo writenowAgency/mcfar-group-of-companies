@@ -58,7 +58,7 @@
 @media (max-width: 992px) {
   .hero {
     height: auto;
-    padding-top: 250px;
+    padding: 120px 0 60px;
   }
   
   .hero-container {
@@ -70,6 +70,10 @@
     order: 1;
   }
   
+  .hero-content h1 {
+    font-size: 2.2rem;
+  }
+
   .hero-image {
     order: 2;
     max-width: 100%;
@@ -79,5 +83,20 @@
   .hero-main-img {
     height: 300px;
     margin: 0 auto;
+  }
+}
+
+@media (max-width: 576px) {
+  .hero-content h1 {
+    font-size: 1.8rem;
+  }
+  
+  .hero-btns {
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+  .btn {
+    width: 100%;
   }
 }

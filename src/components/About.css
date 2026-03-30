@@ -59,4 +59,20 @@
   .about-container {
     grid-template-columns: 1fr;
   }
+  
+  .about-stats {
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+  }
+  
+  .stat-item {
+    align-items: center;
+  }
+}
+
+@media (max-width: 576px) {
+  .about-image {
+    height: 300px;
+  }
 }
