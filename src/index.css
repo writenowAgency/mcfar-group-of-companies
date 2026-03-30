@@ -144,3 +144,18 @@ section {
   margin-bottom: 1rem;
   opacity: 0.5;
 }
+
+/* Visibility Utilities */
+.mobile-only {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .mobile-only {
+    display: block;
+  }
+  
+  .desktop-only {
+    display: none;
+  }
+}
