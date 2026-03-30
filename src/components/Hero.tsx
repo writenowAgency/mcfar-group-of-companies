@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 import './Hero.css';
 import constructionImg from '../assets/construction.avif';
 
@@ -16,7 +17,7 @@ const Hero: React.FC = () => {
           </p>
           <div className="hero-btns">
             <a href="#contact" className="btn btn-primary">Free Quote</a>
-            <a href="#services" className="btn btn-outline">Our Services</a>
+            <Link to="/services" className="btn btn-outline">Our Services</Link>
           </div>
         </div>
         <div className="hero-image">
